@@ -1,0 +1,7 @@
+/.idea
+/RECON_data
+**/__pycache__/
+/classla_service/wiki.sl.bin
+/venv
+/src
+wikidataentity.json

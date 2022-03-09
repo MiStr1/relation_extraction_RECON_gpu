@@ -1,0 +1,8 @@
+classla==1.1.0
+fastapi==0.75.0
+uvicorn[standard]==0.17.5
+pydantic==1.9.0
+editdistance
+elasticsearch==7.15.2
+requests
+compress_fasttext==0.1.2
