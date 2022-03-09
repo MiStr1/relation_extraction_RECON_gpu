@@ -30,8 +30,8 @@ Then run
 
 in the same folder as `wikidataentity.json`. To do this you need [elasticdump](https://www.npmjs.com/package/elasticdump) (and [npm](https://www.npmjs.com)).
 
-**Note** This service consumes a lot of RAM. You can omit the elasticsearch service and run `docker-compose up entity_relation_extractor` instead. You will however
-get less accurate relations because the entities will not be marked with a WikiData tag.
+**Note** This service consumes a lot of RAM (<20GB). You can omit the elasticsearch service and run `docker-compose up entity_relation_extractor` instead. This will lower RAM
+consumption to 13GB at startup and 11GB after startup. You will however get less accurate relations because the entities will not be marked with a WikiData tag.
 
  
  ## Use
